@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Mencari Mobil Lelang</description>
+   <name>FeatureSearchMobil</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4a199a2b-fc1d-41c4-8d35-4c45d2add161</testSuiteGuid>
+   <testCaseLink>
+      <guid>b890f205-d56b-4d6b-a031-acfead8ad9cd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Search Mobil</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6332e655-c3c6-4f7c-b45f-f69012b5b4a3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/day1/dataMobil</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6332e655-c3c6-4f7c-b45f-f69012b5b4a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>merkMobil</value>
+         <variableId>a4f2d556-10af-4428-8e21-2fd7092e84e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6332e655-c3c6-4f7c-b45f-f69012b5b4a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>typeMobil</value>
+         <variableId>a597c713-9b02-4de9-a378-dfe53baf653b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6332e655-c3c6-4f7c-b45f-f69012b5b4a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tahunMobil</value>
+         <variableId>78210bd8-f5ce-4285-8dfe-3dc5e2bd9d93</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6332e655-c3c6-4f7c-b45f-f69012b5b4a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>hargaMobil</value>
+         <variableId>d800b245-25d6-410b-81d5-427c16c34985</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

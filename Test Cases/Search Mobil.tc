@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b84326a7-f39a-42a0-9c58-b82b22166c47</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4f2d556-10af-4428-8e21-2fd7092e84e5</id>
+      <masked>false</masked>
+      <name>merkMobil</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a597c713-9b02-4de9-a378-dfe53baf653b</id>
+      <masked>false</masked>
+      <name>typeMobil</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>78210bd8-f5ce-4285-8dfe-3dc5e2bd9d93</id>
+      <masked>false</masked>
+      <name>tahunMobil</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d800b245-25d6-410b-81d5-427c16c34985</id>
+      <masked>false</masked>
+      <name>hargaMobil</name>
+   </variable>
+</TestCaseEntity>
