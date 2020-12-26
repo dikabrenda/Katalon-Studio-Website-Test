@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FeatureSearchMobil,Chrome 87.0.4280.88,Mencari Mobil Lelang,,2020-12-26 19:23:16,2020-12-26 19:24:33,1m - 16.951s,PASSED
+,,,,,,,
+Test Cases/Search Mobil,Chrome 87.0.4280.88,,,2020-12-26 19:23:18,2020-12-26 19:23:44,26.007s,PASSED
+openBrowser(url),Chrome 87.0.4280.88,User open browser,,2020-12-26 19:23:19,2020-12-26 19:23:31,12.569s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/merk_mobil""), merkMobil, false)",Chrome 87.0.4280.88,User select merek mobil,,2020-12-26 19:23:31,2020-12-26 19:23:32,0.824s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/seri_mobil""), typeMobil, false)",Chrome 87.0.4280.88,User select type mobil,,2020-12-26 19:23:32,2020-12-26 19:23:33,0.892s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/tahun_mobil""), tahunMobil, false)",Chrome 87.0.4280.88,User select tahun mobil,,2020-12-26 19:23:33,2020-12-26 19:23:34,0.931s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/harga_mobil""), hargaMobil, false)",Chrome 87.0.4280.88,User select harga mobil,,2020-12-26 19:23:34,2020-12-26 19:23:35,0.859s,PASSED
+"click(findTestObject(""cariMobil/button_cari""))",Chrome 87.0.4280.88,User click tombol cari,,2020-12-26 19:23:35,2020-12-26 19:23:35,0.505s,PASSED
+delay(2),Chrome 87.0.4280.88,Delay,,2020-12-26 19:23:35,2020-12-26 19:23:37,2.061s,PASSED
+"if (merkMobil == ""HONDA"")",Chrome 87.0.4280.88,,,2020-12-26 19:23:37,2020-12-26 19:23:38,0.831s,PASSED
+delay(2),Chrome 87.0.4280.88,,,2020-12-26 19:23:38,2020-12-26 19:23:40,2.014s,PASSED
+"if (typeMobil == ""CR-V"")",Chrome 87.0.4280.88,,,2020-12-26 19:23:40,2020-12-26 19:23:43,2.549s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,Close Browser,,2020-12-26 19:23:43,2020-12-26 19:23:44,1.074s,PASSED
+,,,,,,,
+Test Cases/Search Mobil,Chrome 87.0.4280.88,,,2020-12-26 19:23:44,2020-12-26 19:24:08,23.891s,PASSED
+openBrowser(url),Chrome 87.0.4280.88,User open browser,,2020-12-26 19:23:44,2020-12-26 19:23:55,11.006s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/merk_mobil""), merkMobil, false)",Chrome 87.0.4280.88,User select merek mobil,,2020-12-26 19:23:55,2020-12-26 19:23:56,0.907s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/seri_mobil""), typeMobil, false)",Chrome 87.0.4280.88,User select type mobil,,2020-12-26 19:23:56,2020-12-26 19:23:57,0.932s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/tahun_mobil""), tahunMobil, false)",Chrome 87.0.4280.88,User select tahun mobil,,2020-12-26 19:23:57,2020-12-26 19:23:58,1.063s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/harga_mobil""), hargaMobil, false)",Chrome 87.0.4280.88,User select harga mobil,,2020-12-26 19:23:58,2020-12-26 19:23:58,0.666s,PASSED
+"click(findTestObject(""cariMobil/button_cari""))",Chrome 87.0.4280.88,User click tombol cari,,2020-12-26 19:23:58,2020-12-26 19:23:59,0.427s,PASSED
+delay(2),Chrome 87.0.4280.88,Delay,,2020-12-26 19:23:59,2020-12-26 19:24:01,2.004s,PASSED
+"if (merkMobil == ""HONDA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:01,2020-12-26 19:24:01,0.001s,PASSED
+"else if (merkMobil == ""TOYOTA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:01,2020-12-26 19:24:03,1.772s,PASSED
+delay(2),Chrome 87.0.4280.88,,,2020-12-26 19:24:03,2020-12-26 19:24:05,2.004s,PASSED
+"if (typeMobil == ""CR-V"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:05,2020-12-26 19:24:05,0.001s,PASSED
+"else if (typeMobil == ""AVANZA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:05,2020-12-26 19:24:07,2.032s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,Close Browser,,2020-12-26 19:24:07,2020-12-26 19:24:08,0.989s,PASSED
+,,,,,,,
+Test Cases/Search Mobil,Chrome 87.0.4280.88,,,2020-12-26 19:24:08,2020-12-26 19:24:33,24.840s,PASSED
+openBrowser(url),Chrome 87.0.4280.88,User open browser,,2020-12-26 19:24:08,2020-12-26 19:24:20,11.750s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/merk_mobil""), merkMobil, false)",Chrome 87.0.4280.88,User select merek mobil,,2020-12-26 19:24:20,2020-12-26 19:24:20,0.790s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/seri_mobil""), typeMobil, false)",Chrome 87.0.4280.88,User select type mobil,,2020-12-26 19:24:20,2020-12-26 19:24:22,1.177s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/tahun_mobil""), tahunMobil, false)",Chrome 87.0.4280.88,User select tahun mobil,,2020-12-26 19:24:22,2020-12-26 19:24:23,1.077s,PASSED
+"selectOptionByValue(findTestObject(""cariMobil/harga_mobil""), hargaMobil, false)",Chrome 87.0.4280.88,User select harga mobil,,2020-12-26 19:24:23,2020-12-26 19:24:23,0.592s,PASSED
+"click(findTestObject(""cariMobil/button_cari""))",Chrome 87.0.4280.88,User click tombol cari,,2020-12-26 19:24:23,2020-12-26 19:24:24,0.460s,PASSED
+delay(2),Chrome 87.0.4280.88,Delay,,2020-12-26 19:24:24,2020-12-26 19:24:26,2.017s,PASSED
+"if (merkMobil == ""HONDA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:26,2020-12-26 19:24:26,0.001s,PASSED
+"else if (merkMobil == ""TOYOTA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:26,2020-12-26 19:24:26,0.001s,PASSED
+"else if (merkMobil == ""DAIHATSU"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:26,2020-12-26 19:24:28,1.967s,PASSED
+delay(2),Chrome 87.0.4280.88,,,2020-12-26 19:24:28,2020-12-26 19:24:30,2.006s,PASSED
+"if (typeMobil == ""CR-V"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:30,2020-12-26 19:24:30,0.000s,PASSED
+"else if (typeMobil == ""AVANZA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:30,2020-12-26 19:24:30,0.001s,PASSED
+"else if (typeMobil == ""AYLA"")",Chrome 87.0.4280.88,,,2020-12-26 19:24:30,2020-12-26 19:24:32,1.961s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,Close Browser,,2020-12-26 19:24:32,2020-12-26 19:24:33,0.973s,PASSED

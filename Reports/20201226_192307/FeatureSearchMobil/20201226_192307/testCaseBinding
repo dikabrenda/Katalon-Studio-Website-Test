@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Search Mobil - Iteration 1","testCaseId":"Test Cases/Search Mobil","bindedValues":{"tahunMobil":"\u00272017\u0027","hargaMobil":"\u0027200000000|250000000\u0027","merkMobil":"\u0027HONDA\u0027","typeMobil":"\u0027CR-V\u0027"}}
+{"testCaseName":"Test Cases/Search Mobil - Iteration 2","testCaseId":"Test Cases/Search Mobil","bindedValues":{"tahunMobil":"\u00272016\u0027","hargaMobil":"\u0027100000000|150000000\u0027","merkMobil":"\u0027TOYOTA\u0027","typeMobil":"\u0027AVANZA\u0027"}}
+{"testCaseName":"Test Cases/Search Mobil - Iteration 3","testCaseId":"Test Cases/Search Mobil","bindedValues":{"tahunMobil":"\u00272020\u0027","hargaMobil":"\u002750000000|100000000\u0027","merkMobil":"\u0027DAIHATSU\u0027","typeMobil":"\u0027AYLA\u0027"}}

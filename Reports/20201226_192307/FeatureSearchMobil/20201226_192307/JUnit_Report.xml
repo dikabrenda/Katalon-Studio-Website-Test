@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FeatureSearchMobil" time="76.951" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="FeatureSearchMobil" tests="3" failures="0" errors="0" time="76.951" skips="0" timestamp="2020-12-26 19:23:16" hostname="Dika Brenda Angkasa - dikabrenda" id="Test Suites/FeatureSearchMobil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Reports\\20201226_192307\\FeatureSearchMobil\\20201226_192307"/>
+         <property name="logFiles" value="C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Reports\\20201226_192307\\FeatureSearchMobil\\20201226_192307\\execution0.log"/>
+         <property name="attachments" value="C:\Users\BMT\Katalon Studio\ibidProject\keyes\keyes-Screenshot.png, C:\Users\BMT\Katalon Studio\ibidProject\keyes\keyes-Screenshot.png, C:\Users\BMT\Katalon Studio\ibidProject\keyes\keyes-Screenshot.png"/>
+         <property name="hostName" value="Dika Brenda Angkasa - dikabrenda"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.100.12"/>
+         <property name="sessionId" value="6edfd94a5afe7ed66a6c59b34038cd35"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search Mobil" time="26.007" classname="Test Cases/Search Mobil" status="PASSED">
+         <system-out><![CDATA[2020-12-26 19:23:18 - [TEST_CASE][PASSED] - Test Cases/Search Mobil: Test Cases/Search Mobil
+
+2020-12-26 19:23:19 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.ibid.astra.co.id/'
+
+2020-12-26 19:23:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-26 19:23:19 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --start-maximized]']
+
+2020-12-26 19:23:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-26 19:23:31 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#katalon_only_element"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DIKABRENDA', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\BMT\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5f09164121a786bc05ac5dcf34e159f1
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-26 19:23:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ibid.astra.co.id/'
+
+2020-12-26 19:23:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/merk_mobil"), merkMobil, false): All options with value 'HONDA' are selected in object 'Object Repository/cariMobil/merk_mobil' 
+
+2020-12-26 19:23:32 - [MESSAGE][PASSED] - All options with value 'HONDA' are selected in object 'Object Repository/cariMobil/merk_mobil' 
+
+2020-12-26 19:23:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/seri_mobil"), typeMobil, false): All options with value 'CR-V' are selected in object 'Object Repository/cariMobil/seri_mobil' 
+
+2020-12-26 19:23:33 - [MESSAGE][PASSED] - All options with value 'CR-V' are selected in object 'Object Repository/cariMobil/seri_mobil' 
+
+2020-12-26 19:23:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/tahun_mobil"), tahunMobil, false): All options with value '2017' are selected in object 'Object Repository/cariMobil/tahun_mobil' 
+
+2020-12-26 19:23:34 - [MESSAGE][PASSED] - All options with value '2017' are selected in object 'Object Repository/cariMobil/tahun_mobil' 
+
+2020-12-26 19:23:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/harga_mobil"), hargaMobil, false): All options with value '200000000|250000000' are selected in object 'Object Repository/cariMobil/harga_mobil' 
+
+2020-12-26 19:23:35 - [MESSAGE][PASSED] - All options with value '200000000|250000000' are selected in object 'Object Repository/cariMobil/harga_mobil' 
+
+2020-12-26 19:23:35 - [TEST_STEP][PASSED] - click(findTestObject("cariMobil/button_cari")): Object: 'Object Repository/cariMobil/button_cari' is clicked on
+
+2020-12-26 19:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/cariMobil/button_cari' is clicked on
+
+2020-12-26 19:23:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-12-26 19:23:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-26 19:23:37 - [TEST_STEP][PASSED] - if (merkMobil == "HONDA"): Object: 'Object Repository/typeMobil/mobil_hrv' is clicked on
+
+2020-12-26 19:23:37 - [TEST_STEP][PASSED] - click(findTestObject("typeMobil/mobil_hrv")): Object: 'Object Repository/typeMobil/mobil_hrv' is clicked on
+
+2020-12-26 19:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/typeMobil/mobil_hrv' is clicked on
+
+2020-12-26 19:23:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-12-26 19:23:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-26 19:23:40 - [TEST_STEP][PASSED] - if (typeMobil == "CR-V"): null
+
+2020-12-26 19:23:40 - [TEST_STEP][PASSED] - verifyTextPresent("HONDA CR-V 2.0", true, CONTINUE_ON_FAILURE): Text 'HONDA CR-V 2.0' is present on page  using regular expression
+
+2020-12-26 19:23:41 - [MESSAGE][PASSED] - Text 'HONDA CR-V 2.0' is present on page  using regular expression
+
+2020-12-26 19:23:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("C:\Users\BMT\Katalon Studio\ibidProject\Screenshot"): Taking screenshot successfully
+
+2020-12-26 19:23:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BMT\Katalon Studio\ibidProject\keyes\keyes-Screenshot.png]]
+
+2020-12-26 19:23:43 - [TEST_STEP][PASSED] - println("Verify User berhasil mencari honda HRV"): null
+
+2020-12-26 19:23:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-26 19:23:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Mobil" time="23.891" classname="Test Cases/Search Mobil" status="PASSED">
+         <system-out><![CDATA[2020-12-26 19:23:44 - [TEST_CASE][PASSED] - Test Cases/Search Mobil: Test Cases/Search Mobil
+
+2020-12-26 19:23:44 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.ibid.astra.co.id/'
+
+2020-12-26 19:23:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-26 19:23:44 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --start-maximized]']
+
+2020-12-26 19:23:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-26 19:23:55 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#katalon_only_element"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DIKABRENDA', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\BMT\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47bb02ca9baf6bb8d254d2d5c3e6baef
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-26 19:23:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ibid.astra.co.id/'
+
+2020-12-26 19:23:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/merk_mobil"), merkMobil, false): All options with value 'TOYOTA' are selected in object 'Object Repository/cariMobil/merk_mobil' 
+
+2020-12-26 19:23:56 - [MESSAGE][PASSED] - All options with value 'TOYOTA' are selected in object 'Object Repository/cariMobil/merk_mobil' 
+
+2020-12-26 19:23:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/seri_mobil"), typeMobil, false): All options with value 'AVANZA' are selected in object 'Object Repository/cariMobil/seri_mobil' 
+
+2020-12-26 19:23:57 - [MESSAGE][PASSED] - All options with value 'AVANZA' are selected in object 'Object Repository/cariMobil/seri_mobil' 
+
+2020-12-26 19:23:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/tahun_mobil"), tahunMobil, false): All options with value '2016' are selected in object 'Object Repository/cariMobil/tahun_mobil' 
+
+2020-12-26 19:23:58 - [MESSAGE][PASSED] - All options with value '2016' are selected in object 'Object Repository/cariMobil/tahun_mobil' 
+
+2020-12-26 19:23:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/harga_mobil"), hargaMobil, false): All options with value '100000000|150000000' are selected in object 'Object Repository/cariMobil/harga_mobil' 
+
+2020-12-26 19:23:58 - [MESSAGE][PASSED] - All options with value '100000000|150000000' are selected in object 'Object Repository/cariMobil/harga_mobil' 
+
+2020-12-26 19:23:58 - [TEST_STEP][PASSED] - click(findTestObject("cariMobil/button_cari")): Object: 'Object Repository/cariMobil/button_cari' is clicked on
+
+2020-12-26 19:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/cariMobil/button_cari' is clicked on
+
+2020-12-26 19:23:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-12-26 19:24:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-26 19:24:01 - [TEST_STEP][PASSED] - if (merkMobil == "HONDA"): null
+
+2020-12-26 19:24:01 - [TEST_STEP][PASSED] - else if (merkMobil == "TOYOTA"): Object: 'Object Repository/typeMobil/mobil_avanza' is clicked on
+
+2020-12-26 19:24:01 - [TEST_STEP][PASSED] - click(findTestObject("typeMobil/mobil_avanza")): Object: 'Object Repository/typeMobil/mobil_avanza' is clicked on
+
+2020-12-26 19:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/typeMobil/mobil_avanza' is clicked on
+
+2020-12-26 19:24:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-12-26 19:24:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-26 19:24:05 - [TEST_STEP][PASSED] - if (typeMobil == "CR-V"): null
+
+2020-12-26 19:24:05 - [TEST_STEP][PASSED] - else if (typeMobil == "AVANZA"): null
+
+2020-12-26 19:24:05 - [TEST_STEP][PASSED] - verifyTextPresent("TOYOTA AVANZA 1.5 G", true, CONTINUE_ON_FAILURE): Text 'TOYOTA AVANZA 1.5 G' is present on page  using regular expression
+
+2020-12-26 19:24:05 - [MESSAGE][PASSED] - Text 'TOYOTA AVANZA 1.5 G' is present on page  using regular expression
+
+2020-12-26 19:24:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("C:\Users\BMT\Katalon Studio\ibidProject\Screenshot"): Taking screenshot successfully
+
+2020-12-26 19:24:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BMT\Katalon Studio\ibidProject\keyes\keyes-Screenshot.png]]
+
+2020-12-26 19:24:07 - [TEST_STEP][PASSED] - println("Verify User berhasil mencari mobil toyota avanza"): null
+
+2020-12-26 19:24:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-26 19:24:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Mobil" time="24.84" classname="Test Cases/Search Mobil" status="PASSED">
+         <system-out><![CDATA[2020-12-26 19:24:08 - [TEST_CASE][PASSED] - Test Cases/Search Mobil: Test Cases/Search Mobil
+
+2020-12-26 19:24:08 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.ibid.astra.co.id/'
+
+2020-12-26 19:24:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-26 19:24:08 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --start-maximized]']
+
+2020-12-26 19:24:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-26 19:24:20 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#katalon_only_element"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DIKABRENDA', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\BMT\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6edfd94a5afe7ed66a6c59b34038cd35
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-26 19:24:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ibid.astra.co.id/'
+
+2020-12-26 19:24:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/merk_mobil"), merkMobil, false): All options with value 'DAIHATSU' are selected in object 'Object Repository/cariMobil/merk_mobil' 
+
+2020-12-26 19:24:20 - [MESSAGE][PASSED] - All options with value 'DAIHATSU' are selected in object 'Object Repository/cariMobil/merk_mobil' 
+
+2020-12-26 19:24:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/seri_mobil"), typeMobil, false): All options with value 'AYLA' are selected in object 'Object Repository/cariMobil/seri_mobil' 
+
+2020-12-26 19:24:22 - [MESSAGE][PASSED] - All options with value 'AYLA' are selected in object 'Object Repository/cariMobil/seri_mobil' 
+
+2020-12-26 19:24:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/tahun_mobil"), tahunMobil, false): All options with value '2020' are selected in object 'Object Repository/cariMobil/tahun_mobil' 
+
+2020-12-26 19:24:23 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/cariMobil/tahun_mobil' 
+
+2020-12-26 19:24:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cariMobil/harga_mobil"), hargaMobil, false): All options with value '50000000|100000000' are selected in object 'Object Repository/cariMobil/harga_mobil' 
+
+2020-12-26 19:24:23 - [MESSAGE][PASSED] - All options with value '50000000|100000000' are selected in object 'Object Repository/cariMobil/harga_mobil' 
+
+2020-12-26 19:24:23 - [TEST_STEP][PASSED] - click(findTestObject("cariMobil/button_cari")): Object: 'Object Repository/cariMobil/button_cari' is clicked on
+
+2020-12-26 19:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cariMobil/button_cari' is clicked on
+
+2020-12-26 19:24:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-12-26 19:24:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-26 19:24:26 - [TEST_STEP][PASSED] - if (merkMobil == "HONDA"): null
+
+2020-12-26 19:24:26 - [TEST_STEP][PASSED] - else if (merkMobil == "TOYOTA"): null
+
+2020-12-26 19:24:26 - [TEST_STEP][PASSED] - else if (merkMobil == "DAIHATSU"): Object: 'Object Repository/typeMobil/mobil_ayla' is clicked on
+
+2020-12-26 19:24:26 - [TEST_STEP][PASSED] - click(findTestObject("typeMobil/mobil_ayla")): Object: 'Object Repository/typeMobil/mobil_ayla' is clicked on
+
+2020-12-26 19:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/typeMobil/mobil_ayla' is clicked on
+
+2020-12-26 19:24:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-12-26 19:24:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-26 19:24:30 - [TEST_STEP][PASSED] - if (typeMobil == "CR-V"): null
+
+2020-12-26 19:24:30 - [TEST_STEP][PASSED] - else if (typeMobil == "AVANZA"): null
+
+2020-12-26 19:24:30 - [TEST_STEP][PASSED] - else if (typeMobil == "AYLA"): null
+
+2020-12-26 19:24:30 - [TEST_STEP][PASSED] - verifyTextPresent("DAIHATSU AYLA 1.0 M", true, CONTINUE_ON_FAILURE): Text 'DAIHATSU AYLA 1.0 M' is present on page  using regular expression
+
+2020-12-26 19:24:30 - [MESSAGE][PASSED] - Text 'DAIHATSU AYLA 1.0 M' is present on page  using regular expression
+
+2020-12-26 19:24:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("C:\Users\BMT\Katalon Studio\ibidProject\Screenshot"): Taking screenshot successfully
+
+2020-12-26 19:24:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BMT\Katalon Studio\ibidProject\keyes\keyes-Screenshot.png]]
+
+2020-12-26 19:24:32 - [TEST_STEP][PASSED] - println("Verify User berhasil mencari mobil Daohatsu Ayla"): null
+
+2020-12-26 19:24:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-26 19:24:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-26 19:23:16 - [TEST_SUITE][INCOMPLETE] - FeatureSearchMobil: null]]></system-out>
+      <system-err><![CDATA[2020-12-26 19:23:16 - [TEST_SUITE][INCOMPLETE] - FeatureSearchMobil: null]]></system-err>
+   </testsuite>
+</testsuites>
