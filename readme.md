@@ -28,12 +28,15 @@ WebUI.delay(2)
 if (merkMobil == 'HONDA') {
     'Mencari Mobil Honda'
     WebUI.click(findTestObject('typeMobil/mobil_hrv'))
+    
 } else if (merkMobil == 'TOYOTA') {
     'Mencari Mobil Toyota'
     WebUI.click(findTestObject('typeMobil/mobil_avanza'))
+    
 } else if (merkMobil == 'DAIHATSU') {
     'Mencari Mobil Ayla'
     WebUI.click(findTestObject('typeMobil/mobil_ayla'))
+    
 } else {
     'Error Message'
     println('ERROR!')
@@ -47,21 +50,24 @@ if (typeMobil == 'CR-V') {
 	'Screenshot'
    WebUI.takeScreenshotAsCheckpoint('C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Screenshot')
 	println ("Verify User berhasil mencari honda HRV")
-}     else if (typeMobil == 'AVANZA') {
-      'Verify user berhasil mencari mobil Toyota Avanza'
-      WebUI.verifyTextPresent('TOYOTA AVANZA 1.5 G', true, FailureHandling.CONTINUE_ON_FAILURE)
-	    'Screenshot'
-	    WebUI.takeScreenshotAsCheckpoint('C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Screenshot')
-	    println ("Verify User berhasil mencari mobil toyota avanza")
-}     else if (typeMobil == 'AYLA') {
-      'Verify user berhasil mencari mobil Daihatsu Ayla'
-      WebUI.verifyTextPresent('DAIHATSU AYLA 1.0 M', true, FailureHandling.CONTINUE_ON_FAILURE)
-	    'Screenshot'
-	    WebUI.takeScreenshotAsCheckpoint('C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Screenshot')
-	    println ("Verify User berhasil mencari mobil Daohatsu Ayla")
-}     else {
-      'Error Message'
-      println ('ERORR!')
+	
+} else if (typeMobil == 'AVANZA') {
+	'Verify user berhasil mencari mobil Toyota Avanza'
+	WebUI.verifyTextPresent('TOYOTA AVANZA 1.5 G', true, FailureHandling.CONTINUE_ON_FAILURE)
+	'Screenshot'
+	WebUI.takeScreenshotAsCheckpoint('C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Screenshot')
+	println ("Verify User berhasil mencari mobil toyota avanza")
+	
+} else if (typeMobil == 'AYLA') {
+	'Verify user berhasil mencari mobil Daihatsu Ayla'
+	WebUI.verifyTextPresent('DAIHATSU AYLA 1.0 M', true, FailureHandling.CONTINUE_ON_FAILURE)
+	'Screenshot'
+	WebUI.takeScreenshotAsCheckpoint('C:\\Users\\BMT\\Katalon Studio\\ibidProject\\Screenshot')
+	println ("Verify User berhasil mencari mobil Daohatsu Ayla")
+	
+} else {
+	'Error Message'
+	println ('ERORR!')
 }
 
 'Close Browser'
