@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>e06f0ef5-8f95-44d8-a272-51128edd9efb</dataFileGUID>
-   <dataSourceUrl>D:\QA\dataMobil.xlsx</dataSourceUrl>
+   <dataSourceUrl>Resource/dataMobil.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
